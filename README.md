@@ -99,7 +99,11 @@ Se N = 10 e V = [2, 3, 4] você pode utilizar as seguintes soma: [2, 2, 2, 2, 2]
 
 ### Sobre o código:
 Seguindo padrão, a execução se inicia na linha 29 e logo se pede as entradas do valor de N (já sendo transformado em uma variável de inteiro), bem como o vetor.
-O vetor passa por um tratamento com a função string_para_lista(), igualmente ao Desafio 02 (inclusive é utilizada a mesma função). Com os parâmetros ajustados, executa-se a função elementos_mínimos(), que é a principal função do código.
+
+
+O vetor passa por um tratamento com a função string_para_lista(), igualmente ao Desafio 02 (inclusive é utilizada a mesma função). Além disso, é usada a função set(), para "limpar" o vetor de números repetidos. Por exemplo, se for passado um vetor [2,2,4] irá ser considerado como [2,4]. Casoisto não seja feito, quando gerar as combinações, poderá ser considerado que os elementos do vetor[0] e vetor[1] são diferentes, apesar de terem o mesmo valor. Assim, iria duplicar a quantidade de respostas imprimindo [2,4,4] duas vezes, uma para cada valor 2.
+
+Com os parâmetros ajustados, executa-se a função elementos_mínimos(), que é a principal função do código.
 
 São inicializadas duas variáveis, um contador e uma lista vazia que servirá para o retorno da função. Um laço while é criado, no qual será incrementado o contador e a cada etapa irá gerar combinações (com repetição de elementos) dos números do vetor de entrada. O contador irá servir como parâmetro para a quantidade de elementos das combinações possíveis em cada laço efetuado.
 
