@@ -11,7 +11,7 @@ Após baixar os arquivos, é necessário que a máquina possua o [Python]( https
 
 O terceiro meio (executar diretamente o arquivo) é mais simples e rápido. Em vista disto, em todos os códigos foi adicionado um módulo com o único intuito de criar um atraso de 10 segundos na tela para que o usuário possa analisar o resultado (função “sleep” do módulo “time”). Sem isto, ao executar o arquivo, a janela aberta iria fechar logo que o código terminar.
 
-## DESAFIO 01:
+## [DESAFIO 01](https://github.com/YuriAoyamaSE/desafio-warren/blob/main/desafio_01.py)
 Alguns números inteiros positivos n possuem uma propriedade na qual a soma de n + reverso(n) resultam em números ímpares. Por exemplo, 36 + 63 = 99 e 409 + 904 = 1313. Considere que n ou reverso(n) não podem começar com 0. 
 
 Existem 120 números reversíveis abaixo de 1000. 
@@ -40,7 +40,7 @@ Caso não passe pela validação, o laço pula para o inteiro seguinte. Caso pas
 
 Passa-se para a validação final (soma com resultado ímpar) e adiciona os resultados válidos em uma lista, que será retornada para a impressão final do código. Uma vez que não houve a determinação de como deveria ser o output do programa, optou-se por devolver uma lista de números para que fosse uma visualização mais condensada, visto o número grande de resultados. Ademais, a utilização de uma lista para guardar o resultado é útil para manipular as informações mais facilmente (como contagem de elementos ou comparações).
 
-## DESAFIO 02
+## [DESAFIO 02](https://github.com/YuriAoyamaSE/desafio-warren/blob/main/desafio_02.py)
 Um professor de programação, frustrado com a falta de disciplina de seus alunos, decidi cancelar a  aula  se  menos  de x alunos  estiverem  presentes  quando  a  aula  for  iniciada.  O  tempo  de chegada varia entre: 
 
 • Normal: tempoChegada <= 0 
@@ -74,7 +74,7 @@ Com os parâmetros já readequados, usa-se a função validar_aula() para fazer 
 
 Já a função sum() irá fazer o somatório dos resultados booleanos, onde o Python reconhece True como 1 e False como 0. Assim, o sum() se torna um contador de resultados válidos (de alunos que não atrasaram) e é impressa resposta de acordo com tal verificação. É interessante destacar que não há retorno na função validar_aula() e que ela já executa a impressão.
 
-## DESAFIO 03
+## [DESAFIO 03](https://github.com/YuriAoyamaSE/desafio-warren/blob/main/desafio_03.py)
 Dado um vetor de números e um número n. Determine a soma com o menor número de elementos entre os números do vetor mais próxima de n e também mostre os elementos que compõem a soma. Para criar a soma, utilize qualquer elemento do vetor uma ou mais vezes. 
 
 Exemplo: 
